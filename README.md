@@ -28,7 +28,7 @@ We have a **Game** class, which stores the array of Picture objects and the two-
 
 **FindthePairsPanel**  class:  Contains the GamePanel class. Use the box layout. Create the label and counter on the left of the panel. 
 
-**FindthePairsGUI** Class:  Sets up the GUI for the FindthePairs game.
+**FindthePairsGUI** Class:  Sets up the GUI for the FindthePairs game. Contains main method.
 
 
 ### Main Actions
