@@ -9,5 +9,15 @@ import javax.swing.*;
 public class CatifyGUI {
 
   public static void main (String[] args) {
+    // creates and shows a Frame 
+    JFrame frame = new JFrame("CATify");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    SettingPanel setting = new SettingPanel();
+    frame.getContentPane().add(setting);
+    
+    frame.pack();
+    frame.setVisible(true);
+
   }
 }
