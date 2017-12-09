@@ -28,9 +28,28 @@ public class ResultPanel extends JPanel {
 		home = new JButton("Home");
 		quit = new JButton("Quit");
 
-		add(restart);
-		add(home);
-		add(quit);
+		JPanel buttonsPanel = ButtonsPanel();
 
+		add(buttonsPanel);
+
+		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+
+	}
+
+	public JPanel ButtonsPanel () {
+		JPanel result = new JPanel();
+
+		restart.setAlignmentX(Component.CENTER_ALIGNMENT);
+		result.add(restart);
+
+		home.setAlignmentX(Component.CENTER_ALIGNMENT);
+		result.add(home);
+
+		quit.setAlignmentX(Component.CENTER_ALIGNMENT);
+		result.add(quit);
+
+		result.setLayout(new BoxLayout(result, BoxLayout.Y_AXIS));
+
+		return result;
 	}
 }
