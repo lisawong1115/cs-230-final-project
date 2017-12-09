@@ -9,5 +9,21 @@ import javax.swing.*;
 public class CatifyGUI {
 
   public static void main (String[] args) {
+    JFrame frame = new JFrame("CatifyGUI");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    
+    //Create tab panels
+    JTabbedPane tp = new JTabbedPane();
+    tp.addTab("Main", new MainPanel());
+    tp.addTab("Setting", new SettingPanel());
+    tp.addTab("Game", new GamePanel());
+    tp.addTab("Result", new ResultPanel());
+    
+    //adds the whole panel to the frame
+    frame.getContentPane().add(tp);
+    
+    frame.pack();
+    frame.setVisible(true);
   }
 }

@@ -1,0 +1,1 @@
+9 Dec 2017 3:31:46 GMT: Log 'EclipseCompiler.txt' opened: 9 Dec 2017 3:31:46 GMT with name C:\Users\yzhan\cs-230-final-project\GUI\EclipseCompiler.txt
