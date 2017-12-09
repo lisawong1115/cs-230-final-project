@@ -5,12 +5,17 @@
 * @since 12-08-2017
 */
 import javax.swing.*;
+import java.awt.*;
 
 public class CatifyGUI {
 
   public static void main (String[] args) {
     JFrame frame = new JFrame("CatifyGUI");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    frame.setPreferredSize(new Dimension(800,600));
+    frame.setMaximumSize(new Dimension(800,600));
+    frame.setMinimumSize(new Dimension(800,600));
     
     
     //Create tab panels
