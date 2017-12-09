@@ -13,40 +13,64 @@ import javax.swing.event.*;
 public class SettingPanel extends JPanel {
   //instance vars
   private JButton easyButton,mediumButton,hardButton;
+  private JLabel info;
   
   public SettingPanel(){
-    this.setLayout(new BorderLayout());
+    GridBagLayout gridbag = new GridBagLayout();
+    this.setLayout(gridbag);
+    GridBagConstraints c = new GridBagConstraints();
+
+    info = new JLabel("HOW MANY CATS CAN YOU FIND?");
+    info.setFont(new Font("Algerian", Font.BOLD, 44));
+    info.setHorizontalAlignment(JLabel.CENTER);
+    c.gridwidth = GridBagConstraints.REMAINDER;
+    c.gridheight = 3;
+    gridbag.setConstraints(info,c);
+    this.add(info);
     
-    this.add(ButtonPanel(),BorderLayout.CENTER);
+    
+    JPanel buttons = ButtonPanel();
+    c.gridwidth = GridBagConstraints.REMAINDER;
+    c.gridheight = GridBagConstraints.REMAINDER;
+    gridbag.setConstraints(buttons,c);
+    
+    
+    this.add(ButtonPanel());
+    
   }
   
   private JPanel ButtonPanel(){
     JPanel buttons = new JPanel();
-    
-    easyButton = new JButton("EASY");
+    buttons.setPreferredSize(new Dimension(400,300));
+    buttons.setMaximumSize(new Dimension(400,300));
+    buttons.setMinimumSize(new Dimension(400,300));
+        
+    easyButton = new JButton("    EASY    ");
+    easyButton.setFont(new Font("Forte", Font.PLAIN, 24));
     easyButton.addActionListener (new ButtonListener());
     mediumButton = new JButton("MEDIUM");
+    mediumButton.setFont(new Font("Forte", Font.PLAIN, 24));
     mediumButton.addActionListener (new ButtonListener());
-    hardButton = new JButton("HARD");
+    hardButton = new JButton("    HARD    ");
+    hardButton.setFont(new Font("Forte", Font.PLAIN, 24));
     hardButton.addActionListener (new ButtonListener());
     
     buttons.setLayout(new BoxLayout(buttons, BoxLayout.Y_AXIS));
-    
+        
     easyButton.setAlignmentX(buttons.CENTER_ALIGNMENT);
 
     mediumButton.setAlignmentX(buttons.CENTER_ALIGNMENT);
 
     hardButton.setAlignmentX(buttons.CENTER_ALIGNMENT);
     
-    buttons.add(Box.createRigidArea(new Dimension(0,300)));
+    buttons.add(Box.createRigidArea(new Dimension(0,60)));
     buttons.add(easyButton);
-    buttons.add(Box.createRigidArea(new Dimension(0,100)));
+    buttons.add(Box.createRigidArea(new Dimension(0,50)));
     
     buttons.add(mediumButton);
-    buttons.add(Box.createRigidArea(new Dimension(0,100)));
+    buttons.add(Box.createRigidArea(new Dimension(0,50)));
     
     buttons.add(hardButton);
-    buttons.add(Box.createRigidArea(new Dimension(0,100)));
     
     return buttons;
   }
