@@ -980,3 +980,5 @@ fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desk
 9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51c9fe
 9 Dec 2017 3:50:25 GMT:  Kind = WARNING
 9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:53:48 GMT: Log 'EclipseCompiler.txt' opened: 9 Dec 2017 3:53:48 GMT with name C:\Users\yzhan\cs-230-final-project\GUI\EclipseCompiler.txt
+9 Dec 2017 3:53:49 GMT: Log 'EclipseCompiler.txt' opened: 9 Dec 2017 3:53:49 GMT with name C:\Users\yzhan\cs-230-final-project\GUI\EclipseCompiler.txt
