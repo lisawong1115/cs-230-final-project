@@ -13,24 +13,61 @@ import javax.swing.event.*;
 public class ResultPanel extends JPanel {
 
 	// instance variables
-	private JTextArea textArea;
+	private JLabel l1;
+	private JLabel l2;
 	private JButton restart;
 	private JButton home;
 	private JButton quit;
 
 	public ResultPanel () {
-		textArea = new JTextArea();
-		String text = "Congratulations!\nYou found all pairs!";
-		textArea.setText(text);
-		add(textArea);
+		l1 = new JLabel("Congratulations!");
+		l2 = new JLabel("You found all pairs!");
 
 		restart = new JButton("Restart");
 		home = new JButton("Home");
 		quit = new JButton("Quit");
+		
+		l1.setAlignmentX(Component.CENTER_ALIGNMENT);
+		l1.setFont(new Font("Chalkduster", Font.PLAIN, 60));
+		this.add(l1);
 
-		add(restart);
-		add(home);
-		add(quit);
+		this.add(Box.createVerticalStrut(20));
 
+		l2.setAlignmentX(Component.CENTER_ALIGNMENT);
+		l2.setFont(new Font("Chalkduster", Font.PLAIN, 40));
+		this.add(l2);
+
+		this.add(Box.createVerticalStrut(150));
+
+		JPanel buttonsPanel = ButtonsPanel();
+
+		this.add(buttonsPanel);
+		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+		this.setBorder(BorderFactory.createEmptyBorder(50,50,50,50));
+
+
+	}
+
+	public JPanel ButtonsPanel () {
+		JPanel result = new JPanel();
+
+		restart.setAlignmentX(Component.CENTER_ALIGNMENT);
+		restart.setPreferredSize(new Dimension(200, 100));
+		restart.setFont(new Font("Arial", Font.PLAIN, 24));
+		result.add(restart);
+
+		home.setAlignmentX(Component.CENTER_ALIGNMENT);
+		home.setPreferredSize(new Dimension(200, 100));
+		home.setFont(new Font("Arial", Font.PLAIN, 24));
+		result.add(home);
+
+		quit.setAlignmentX(Component.CENTER_ALIGNMENT);
+		quit.setPreferredSize(new Dimension(200, 100));
+		quit.setFont(new Font("Arial", Font.PLAIN, 24));
+		result.add(quit);
+
+		result.setLayout(new FlowLayout());
+
+		return result;
 	}
 }
