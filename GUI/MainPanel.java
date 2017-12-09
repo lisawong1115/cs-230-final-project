@@ -15,10 +15,9 @@ public class MainPanel extends JPanel {
   /*Intro panel that displays introduction about 
  * the Grad School GUI function
  */
-public class IntroPanel extends JPanel {
   
   /** Constructor*/
-  public IntroPanel(){
+  public MainPanel(){
     
     setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
     this.setBackground (Color.green);
@@ -37,6 +36,4 @@ public class IntroPanel extends JPanel {
     this.add (b2);
     this.add (b3);
   }
-}
-
 }
