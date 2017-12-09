@@ -1,21 +1,16 @@
 /** 
-* CatifyGUI2.java
+* CatifyGUI.java
 * 
 * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
 * @since 12-08-2017
 */
 import javax.swing.*;
-import java.awt.*;
 
 public class CatifyGUI {
 
   public static void main (String[] args) {
     JFrame frame = new JFrame("CatifyGUI");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-    frame.setPreferredSize(new Dimension(800,600));
-    frame.setMaximumSize(new Dimension(800,600));
-    frame.setMinimumSize(new Dimension(800,600));
     
     
     //Create tab panels
@@ -30,9 +25,5 @@ public class CatifyGUI {
     
     frame.pack();
     frame.setVisible(true);
-<<<<<<< HEAD
-    frame.setResizable(false);
-=======
->>>>>>> 7bb590fa186248cbccc7cc5924fd30ac7c8e66b7
   }
 }

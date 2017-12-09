@@ -1,0 +1,982 @@
+9 Dec 2017 3:31:46 GMT: Log 'EclipseCompiler.txt' opened: 9 Dec 2017 3:31:46 GMT with name C:\Users\yzhan\cs-230-final-project\GUI\EclipseCompiler.txt
+9 Dec 2017 3:36:36 GMT: diagnostics = javax.tools.DiagnosticCollector@b49d32
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1fa562d
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:36:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1786bf5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:36:37 GMT: Compiler call returned
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e2733d
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1627284
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6e8d4e
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 18 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11958b6
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b2020
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:36:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@590f5
+9 Dec 2017 3:36:37 GMT:  Kind = WARNING
+9 Dec 2017 3:36:37 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:16 GMT: diagnostics = javax.tools.DiagnosticCollector@1a9be92
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4e689c
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java]
+9 Dec 2017 3:41:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@23aefb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:41:16 GMT: Compiler call returned
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10f72e6
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f6334a
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9b78af
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 18 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4e383
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fc2e11
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8f2c07
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bc7c79
+9 Dec 2017 3:41:16 GMT:  Kind = ERROR
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java LineNo = 21 ColNo = 41 Msg = 'newList cannot be resolved to a variable'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10a2c76
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10e0660
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eeecd2
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@491742
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@74ede1
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4d349
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c93d91
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8cd0d
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19a3188
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c197e9
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18b1ad5
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b9cf8c
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e3b2c2
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17900c8
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fbe000
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1259e7c
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d45e38
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e660a
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1986ce9
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dbda58
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1616de5
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@346a35
+9 Dec 2017 3:41:16 GMT:  Kind = WARNING
+9 Dec 2017 3:41:16 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:31 GMT: diagnostics = javax.tools.DiagnosticCollector@bfafdc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@62e6c3
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java]
+9 Dec 2017 3:41:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@724b25' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:41:32 GMT: Compiler call returned
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d36215
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@85e66e
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@190c618
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 18 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@616f79
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b2756a
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1594444
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e4f831
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16b5c33
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6f6b11
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10d7cfc
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c1225c
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a7a73
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@40b868
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9edf40
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f2d90d
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18fa2a2
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@83c583
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@af734c
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@102fca5
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100c215
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dbb5eb
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b7988f
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f2abe8
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c9c5c9
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1394df6
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f6df3e
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6c8f03
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:41:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14cf58a
+9 Dec 2017 3:41:32 GMT:  Kind = WARNING
+9 Dec 2017 3:41:32 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:42:06 GMT: diagnostics = javax.tools.DiagnosticCollector@51b603
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e96dba
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java]
+9 Dec 2017 3:42:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3ac69a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:42:07 GMT: Compiler call returned
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dfdc92
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17af91e
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@105573a
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 18 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a79fc0
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dcfdaa
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1705b06
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b7ed5
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b3b005
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18836b4
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51ee28
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@143a0e1
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1380d54
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19ba951
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9a3b24
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f2cfbe
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1192d19
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f2d70a
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a6820b
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@553d5e
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bea9e8
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b7772
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f71742
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e3606f
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17f68b2
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f32248
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2b72f3
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15682c1
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:42:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17c5b61
+9 Dec 2017 3:42:07 GMT:  Kind = WARNING
+9 Dec 2017 3:42:07 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:44:53 GMT: diagnostics = javax.tools.DiagnosticCollector@941c11
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14e56f3
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:44:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18c7ffd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:44:53 GMT: Compiler call returned
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cf9e49
+9 Dec 2017 3:44:53 GMT:  Kind = ERROR
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 18 ColNo = 14 Msg = 'The nested type MainPanel cannot hide an enclosing type'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f093fd
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a183ad
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d80970
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a8e5b4
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fbffc7
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d2a1fe
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bba0dd
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e64bb
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9fa43a
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1093886
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4dd472
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@101453c
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c285d2
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8d4544
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3ffa23
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@148697d
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1988593
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ff5501
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18537f
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f1da00
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1146550
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ec73ee
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f15227
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e8b323
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:44:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@92754b
+9 Dec 2017 3:44:53 GMT:  Kind = WARNING
+9 Dec 2017 3:44:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:17 GMT: diagnostics = javax.tools.DiagnosticCollector@1291750
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@163e405
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:45:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f7bf9d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:45:18 GMT: Compiler call returned
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15e795e
+9 Dec 2017 3:45:18 GMT:  Kind = ERROR
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 41 ColNo = 1 Msg = 'Syntax error on token "}", delete this token'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e51d95
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dc86ef
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8e5291
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4957
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ccf037
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13ff8df
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1672673
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1058b79
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c09da6
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13166c1
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e98faa
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@680ad
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13a04a6
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ab6b2e
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e234ae
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f5d0b7
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10bf6fb
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1050e2f
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2903a5
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@99187f
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f591b9
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1da92fe
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1be870b
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f43de3
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1281e7d
+9 Dec 2017 3:45:18 GMT:  Kind = ERROR
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 20 ColNo = 10 Msg = 'Return type for the method is missing'
+9 Dec 2017 3:45:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e22704
+9 Dec 2017 3:45:18 GMT:  Kind = WARNING
+9 Dec 2017 3:45:18 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: diagnostics = javax.tools.DiagnosticCollector@18f4f01
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@30c759
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:45:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@753fbc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:45:27 GMT: Compiler call returned
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b411f4
+9 Dec 2017 3:45:27 GMT:  Kind = ERROR
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 41 ColNo = 1 Msg = 'Syntax error on token "}", delete this token'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27149b
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@67ef1e
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ab082
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3d3086
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@607416
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17e641b
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f75a16
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f9f34e
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@baf1a3
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@960553
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8dd0bd
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@102fe1
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@142f1e9
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18edccf
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114eebb
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f8b6df
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@45c250
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14c00f3
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10f5597
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8253a7
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8d5865
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b19edf
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5dcb93
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a6ad94
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:45:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2c9dd5
+9 Dec 2017 3:45:27 GMT:  Kind = WARNING
+9 Dec 2017 3:45:27 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:32 GMT: diagnostics = javax.tools.DiagnosticCollector@13a2c62
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d85a79
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:45:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6f0fd9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:45:33 GMT: Compiler call returned
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c7258e
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cc87c4
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@941e00
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@301d7e
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@29bf63
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9de885
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4598c8
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f8b393
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@173d748
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17d423
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5682b1
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17fd8c3
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f99a73
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9df503
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c4b36b
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@160c6f0
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12ae1ad
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8e3a66
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1909ff7
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b89773
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d12f80
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17567f6
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@572f08
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@262afe
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1faaf95
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11a3b4b
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:45:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c0678f
+9 Dec 2017 3:45:33 GMT:  Kind = WARNING
+9 Dec 2017 3:45:33 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:46:52 GMT: diagnostics = javax.tools.DiagnosticCollector@19d2cb7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c63f2b
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:46:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cef55d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:46:53 GMT: Compiler call returned
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e6b97b
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@312cd8
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e0832
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b7549f
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1820633
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d8a0b7
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b12b06
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ed84e3
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a3b073
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15b7348
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bd837e
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d2d6d6
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dbc9f7
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d029d7
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@84f7c0
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cde020
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@115155f
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@52037b
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e5cc06
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c1f33a
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1daf70
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d63f53
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e25473
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c22b96
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5d6931
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@156f60e
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@226b9b
+9 Dec 2017 3:46:53 GMT:  Kind = WARNING
+9 Dec 2017 3:46:53 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:03 GMT: diagnostics = javax.tools.DiagnosticCollector@2af084
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a00c8f
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:49:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fd918d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:49:03 GMT: Compiler call returned
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5875f8
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1628653
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d32a1e
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d76b5f
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bd3b68
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ee74f2
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e12c8b
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@144227b
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c52a40
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f28e8e
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ff796f
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@20c3f1
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d0789f
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f20a15
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@852105
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8c43af
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4cc761
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18dcd9f
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@994fa2
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ecf025
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@af4116
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1119aa9
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19725b6
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d198f9
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@74c3c4
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11bd831
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15deff1
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a9ae33
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 28 ColNo = 12 Msg = 'The value of the local variable s1 is not used'
+9 Dec 2017 3:49:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1093c21
+9 Dec 2017 3:49:03 GMT:  Kind = WARNING
+9 Dec 2017 3:49:03 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 29 ColNo = 12 Msg = 'The value of the local variable s2 is not used'
+9 Dec 2017 3:49:52 GMT: diagnostics = javax.tools.DiagnosticCollector@fe0ebb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e8fc4c
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:49:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fa033' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:49:52 GMT: Compiler call returned
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@256395
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d71950
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@138b2bd
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@192df1a
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ae2e36
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1daa92a
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d55036
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@322f99
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1826537
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b30914
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@98af74
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11f1b59
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19069d0
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@663b9f
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aad6a8
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b4c497
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@eeec78
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16f9a79
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@31b6a
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cbf1c1
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14b5dcc
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cabf0e
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@382776
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1489549
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d00511
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1edf7ca
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:49:52 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5f6dd6
+9 Dec 2017 3:49:52 GMT:  Kind = WARNING
+9 Dec 2017 3:49:52 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:50:25 GMT: diagnostics = javax.tools.DiagnosticCollector@16f9325
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e9dbf3
+fileObjects = [C:\Users\yzhan\Desktop\Pset8\IntroPanel.java, C:\Users\yzhan\Desktop\Pset8\GradSchoolsGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java, C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java, C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java, C:\Users\yzhan\Desktop\Pset8\SlidePanel.java, C:\Users\yzhan\cs-230-final-project\GUI\CatifyGUI.java, C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java]
+9 Dec 2017 3:50:25 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@160ac9c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\yzhan\Desktop\Pset8;C:\Users\yzhan\cs-230-final-project\GUI;C:\Users\yzhan\Desktop\drjava-beta-20160913-225446.exe]
+9 Dec 2017 3:50:25 GMT: Compiler call returned
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18e25e5
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class IntroPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f9ef2d
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\IntroPanel.java LineNo = 11 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@252c52
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class GamePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18b456c
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b8f5f5
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13efc68
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\GamePanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@580961
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class ResultPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14186e3
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e0d1a3
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bdbb4b
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\ResultPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@138b21c
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class SettingPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ad5386
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 8 ColNo = 8 Msg = 'The import java.awt is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19fe279
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cc78a2
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\SettingPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ee9a15
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 18 ColNo = 11 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@119c14d
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 15 ColNo = 14 Msg = 'The serializable class AddSchoolPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@199767d
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 21 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1340744
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 71 ColNo = 17 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@330f05
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 20 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@165b6a7
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 72 ColNo = 16 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10309a8
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 15 Msg = 'javax.swing.JComboBox is a raw type. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8e22ab
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\AddSchoolPanel.java LineNo = 73 ColNo = 11 Msg = 'Type safety: The constructor javax.swing.JComboBox(java.lang.Object[]) belongs to the raw type javax.swing.JComboBox. References to generic type javax.swing.JComboBox<E> should be parameterized'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@475c98
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 17 ColNo = 14 Msg = 'The serializable class SlidePanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e500f9
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\Desktop\Pset8\SlidePanel.java LineNo = 20 ColNo = 18 Msg = 'The value of the field SlidePanel.controls is not used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a00b04
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 13 ColNo = 14 Msg = 'The serializable class MainPanel does not declare a static final serialVersionUID field of type long'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dae7a1
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 9 ColNo = 8 Msg = 'The import java.awt.event is never used'
+9 Dec 2017 3:50:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51c9fe
+9 Dec 2017 3:50:25 GMT:  Kind = WARNING
+9 Dec 2017 3:50:25 GMT: Name = C:\Users\yzhan\cs-230-final-project\GUI\MainPanel.java LineNo = 11 ColNo = 8 Msg = 'The import javax.swing.event is never used'
