@@ -11,4 +11,26 @@ import javax.swing.*;
 import javax.swing.event.*;
 
 public class ResultPanel extends JPanel {
+
+	// instance variables
+	private JTextArea textArea;
+	private JButton restart;
+	private JButton home;
+	private JButton quit;
+
+	public ResultPanel () {
+		textArea = new JTextArea();
+		String text = "Congratulations!\nYou found all pairs!";
+		textArea.setText(text);
+		add(textArea);
+
+		restart = new JButton("Restart");
+		home = new JButton("Home");
+		quit = new JButton("Quit");
+
+		add(restart);
+		add(home);
+		add(quit);
+
+	}
 }
