@@ -1,5 +1,5 @@
 /** 
-* CatifyGUI2.java
+* CatifyGUI.java
 * 
 * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
 * @since 12-08-2017
@@ -30,9 +30,5 @@ public class CatifyGUI {
     
     frame.pack();
     frame.setVisible(true);
-<<<<<<< HEAD
-    frame.setResizable(false);
-=======
->>>>>>> 7bb590fa186248cbccc7cc5924fd30ac7c8e66b7
   }
 }
