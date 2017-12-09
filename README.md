@@ -1,5 +1,9 @@
 # Find The Pairs
 
+**Authors:** Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+
+**Date:** 11/20/2017
+
 ## Description
 
 **Find The Pairs** is a memory game that requires users to flip the cards with pictures underneath and find pairs of identical pictures within as few clicks as possible. Each flip will last a couple of seconds and then flip back.
