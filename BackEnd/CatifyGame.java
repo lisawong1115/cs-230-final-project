@@ -12,12 +12,24 @@ public class CatifyGame{
   private LinkedList<Picture> userClicks;
   
   //constructor
-  public CatifyGame(int numPics){
-    int size = (int)Math.sqrt(numPics*2);
-    this.numPics = numPics; 
-    board = new Board(numPics); 
+  public CatifyGame(){
+    numPics = 0;
+    click = 0;
+    attempts = 0;
+    pairsFound = 0;
+    x1 = x2 = y1 = y2 = 0;
     userClicks = new LinkedList<Picture>();
+  }
+  
+  public void setGame(int numPictures){
+    numPics = numPictures;
+    int size = (int)Math.sqrt(numPics*2);
+    board = new Board(numPics); 
     found = new int[size][size];
+  }
+  
+  public int getNumPics(){
+    return numPics;
   }
   
   public int getAttempts(){
@@ -86,7 +98,8 @@ public class CatifyGame{
   
   //main method to test
   public static void main(String args[]){
-    CatifyGame testGame= new CatifyGame(8);
+    CatifyGame testGame= new CatifyGame();
+    testGame.setGame(8);
     System.out.println(testGame.printBoard());
     Scanner scan = new Scanner(System.in);
     

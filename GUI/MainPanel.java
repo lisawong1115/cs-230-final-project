@@ -19,12 +19,15 @@ public class MainPanel extends JPanel {
   	private JButton newGame;
   	private JButton help;
   	private JButton quit;
+  	private JPanel myParent;
   	
 	  /*Intro panel that displays introduction about 
 	 * the Grad School GUI function
 	 */
 
-	public MainPanel () {
+	public MainPanel (JPanel parent) {
+
+		myParent = parent;
 
 		l1 = new JLabel ("Catify ");
 		l2 = new JLabel ("The next killer app designed by LHT INC.");
@@ -66,14 +69,14 @@ public class MainPanel extends JPanel {
 		newGame.setPreferredSize(new Dimension(200, 100));
 		newGame.setFont(new Font("Arial", Font.PLAIN, 24));
 		newGame.addActionListener(new ButtonListener());
-		//newGame.addActionListener(new Switcher("Setting Panel", this.getParent()));
+		newGame.addActionListener(new Switcher("Setting Panel", myParent));
 		result.add(newGame);
 
 		help.setAlignmentX(Component.CENTER_ALIGNMENT);
 		help.setPreferredSize(new Dimension(200, 100));
 		help.setFont(new Font("Arial", Font.PLAIN, 24));
 		help.addActionListener(new ButtonListener());
-		//help.addActionListener(new Switcher("Help Panel"));
+		help.addActionListener(new Switcher("Help Panel", myParent));
 		result.add(help);
 
 

@@ -8,10 +8,10 @@ public class Switcher implements ActionListener {
     private CardLayout cards;
     private String card;
 
-    public Switcher (String card, Container holder) {
+    public Switcher (String card, JPanel holder) {
 
         this.card = card;
-        cardHolder = (JPanel)holder;
+        cardHolder = holder;
         cards = (CardLayout)cardHolder.getLayout();
     }
 

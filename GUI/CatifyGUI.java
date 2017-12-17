@@ -17,23 +17,25 @@ public class CatifyGUI {
     frame.setMaximumSize(new Dimension(800,600));
     frame.setMinimumSize(new Dimension(800,600));
     
-    //JPanel cards = new ParentPanel();
-    //frame.getContentPane().add(cards);
+    CatifyGame catify = new CatifyGame();
+    
+    JPanel cardHolder = new JPanel();
+    cardHolder.setLayout(new CardLayout());
 
-    //JPanel mainPanel = new MainPanel();
-    //frame.getContentPane().add(mainPanel);
+    MainPanel mainP = new MainPanel(cardHolder);
+    
+    GamePanel gameP = new GamePanel(cardHolder, catify);
+    SettingPanel settingP = new SettingPanel(cardHolder, catify, gameP);
+    ResultPanel resultP = new ResultPanel(cardHolder, catify);
+    HelpPanel helpP = new HelpPanel(cardHolder);
+    
+    cardHolder.add(mainP, "Main Panel");
+    cardHolder.add(settingP, "Setting Panel");
+    cardHolder.add(gameP, "Game Panel");
+    cardHolder.add(resultP, "Result Panel");
+    cardHolder.add(helpP, "Help Panel");
 
-    //Create tab panels
-    JTabbedPane tp = new JTabbedPane();
-    tp.addTab("Main", new MainPanel());
-    tp.addTab("Setting", new SettingPanel());
-    tp.addTab("Game", new GamePanel());
-    tp.addTab("Result", new ResultPanel());
-    
-    
-    
-    //adds the whole panel to the frame
-    frame.getContentPane().add(tp);
+    frame.getContentPane().add(cardHolder);
     
     frame.pack();
     frame.setVisible(true);
