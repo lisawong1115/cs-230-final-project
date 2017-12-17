@@ -17,13 +17,20 @@ public class CatifyGUI {
     frame.setMaximumSize(new Dimension(800,600));
     frame.setMinimumSize(new Dimension(800,600));
     
-    
+    //JPanel cards = new ParentPanel();
+    //frame.getContentPane().add(cards);
+
+    //JPanel mainPanel = new MainPanel();
+    //frame.getContentPane().add(mainPanel);
+
     //Create tab panels
     JTabbedPane tp = new JTabbedPane();
     tp.addTab("Main", new MainPanel());
     tp.addTab("Setting", new SettingPanel());
     tp.addTab("Game", new GamePanel());
     tp.addTab("Result", new ResultPanel());
+    
+    
     
     //adds the whole panel to the frame
     frame.getContentPane().add(tp);

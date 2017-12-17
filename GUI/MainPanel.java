@@ -29,9 +29,6 @@ public class MainPanel extends JPanel {
 		l1 = new JLabel ("Catify ");
 		l2 = new JLabel ("The next killer app designed by LHT INC.");
 		img = new JLabel (new ImageIcon("../cat_pics/pic3.jpg"));
-		newGame = new JButton ("New Game");
-		help = new JButton ("? Help");
-		quit = new JButton ("Quit");
 
 
 		l1.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -55,27 +52,35 @@ public class MainPanel extends JPanel {
 	  	this.add(buttonsPanel);
 
 	  	this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-
 	}
   
   	public JPanel ButtonsPanel(){
 	
 		JPanel result = new JPanel();
 
+		newGame = new JButton ("New Game");
+		help = new JButton ("? Help");
+		quit = new JButton ("Quit");
+
 		newGame.setAlignmentX(Component.CENTER_ALIGNMENT);
 		newGame.setPreferredSize(new Dimension(200, 100));
 		newGame.setFont(new Font("Arial", Font.PLAIN, 24));
+		newGame.addActionListener(new ButtonListener());
+		//newGame.addActionListener(new Switcher("Setting Panel", this.getParent()));
 		result.add(newGame);
 
 		help.setAlignmentX(Component.CENTER_ALIGNMENT);
 		help.setPreferredSize(new Dimension(200, 100));
 		help.setFont(new Font("Arial", Font.PLAIN, 24));
+		help.addActionListener(new ButtonListener());
+		//help.addActionListener(new Switcher("Help Panel"));
 		result.add(help);
 
 
 		quit.setAlignmentX(Component.CENTER_ALIGNMENT);
 		quit.setPreferredSize(new Dimension(200, 100));
 		quit.setFont(new Font("Arial", Font.PLAIN, 24));
+		quit.addActionListener(new ButtonListener());
 		result.add(quit);
 
 		//result.setLayout(new BoxLayout(result, BoxLayout.Y_AXIS));
@@ -83,6 +88,46 @@ public class MainPanel extends JPanel {
 
 		return result;
   
-}
+	}
+
+	
+
+	private class ButtonListener implements ActionListener {
+
+		
+		/*
+		private JPanel cardHolder;
+    	private CardLayout cards;
+
+		public ButtonListener () {
+			super();
+			//cardHolder = new ParentPanel();
+			//cards = (CardLayout)cardHolder.getLayout();
+		}
+		*/
+
+		public void actionPerformed (ActionEvent e) {
+			if (e.getSource() == quit) {
+				System.out.println("Goodbye!");
+				System.exit(0);
+			}
+			if (e.getSource() == newGame) {
+				System.out.println("Setting up the new game");
+				//cards.show(cardHolder, "Setting Panel");
+				// BACKEND TO BE IMPLEMENTED
+
+			}
+
+			if (e.getSource() == help) {
+				System.out.println("Showing instructions of the game");
+				//cards.show(cardHolder, "Help Panel");
+			}
+
+
+		}
+
+
+	}
+	
 
 }

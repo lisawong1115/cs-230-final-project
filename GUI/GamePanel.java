@@ -19,15 +19,13 @@ public class GamePanel extends JPanel {
 	private JLabel attempt;
 	private JLabel pairsFound;
 
+	private String name;
+
 	public GamePanel () {
+		name = "Game Panel";
+
 		this.setLayout(new FlowLayout(0, 60, 0));
 		this.setBorder(BorderFactory.createEmptyBorder(50,50,50,50));
-
-		restart = new JButton("Restart");
-		home = new JButton("Home");
-		info = new JLabel("Find all the pairs!");
-		attempt = new JLabel("Attempts made: 0");
-		pairsFound = new JLabel("Pairs found: 0");
 
 		JPanel infoPanel = infoPanel();
 		JPanel gamePanel = gamePanel();
@@ -42,6 +40,11 @@ public class GamePanel extends JPanel {
 	private JPanel infoPanel() {
 		JPanel result = new JPanel();
 		
+		restart = new JButton("Restart");
+		home = new JButton("Home");
+		info = new JLabel("Find all the pairs!");
+		attempt = new JLabel("Attempts made: 0");
+		pairsFound = new JLabel("Pairs found: 0");
 
 		result.add(restart);
 		result.add(Box.createVerticalStrut(20));
@@ -80,5 +83,10 @@ public class GamePanel extends JPanel {
 
 		return result;
 
+	}
+
+	public String getName() {
+
+		return this.name;
 	}
 }

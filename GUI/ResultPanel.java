@@ -19,13 +19,15 @@ public class ResultPanel extends JPanel {
 	private JButton home;
 	private JButton quit;
 
+	private String name;
+
 	public ResultPanel () {
+
+		name = "Result Panel";
+
 		l1 = new JLabel("Congratulations!");
 		l2 = new JLabel("You found all pairs!");
 
-		restart = new JButton("Restart");
-		home = new JButton("Home");
-		quit = new JButton("Quit");
 		
 		l1.setAlignmentX(Component.CENTER_ALIGNMENT);
 		l1.setFont(new Font("Chalkduster", Font.PLAIN, 60));
@@ -51,6 +53,10 @@ public class ResultPanel extends JPanel {
 	public JPanel ButtonsPanel () {
 		JPanel result = new JPanel();
 
+		restart = new JButton("Restart");
+		home = new JButton("Home");
+		quit = new JButton("Quit");
+
 		restart.setAlignmentX(Component.CENTER_ALIGNMENT);
 		restart.setPreferredSize(new Dimension(200, 100));
 		restart.setFont(new Font("Arial", Font.PLAIN, 24));
@@ -69,5 +75,10 @@ public class ResultPanel extends JPanel {
 		result.setLayout(new FlowLayout());
 
 		return result;
+	}
+
+	public String getName() {
+
+		return this.name;
 	}
 }
