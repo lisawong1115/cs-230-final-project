@@ -101,17 +101,17 @@ public class SettingPanel extends JPanel {
       
       if (event.getSource() == easyButton){
         game.setGame(8);
-        GamePanel.setBoard(8,gridPanel);
+        gp.setBoard(8);
         System.out.println("Starting the game with 8 pairs");
       }
       if (event.getSource() == mediumButton){
         game.setGame(18);
-        GamePanel.setBoard(18,gridPanel);
+        gp.setBoard(18);
         System.out.println("Starting the game with 18 pairs");
       }
       if (event.getSource() == hardButton){
         game.setGame(32);
-        GamePanel.setBoard(32,gridPanel);
+        gp.setBoard(32);
         System.out.println("Starting the game with 32 pairs");
       }
     }
