@@ -26,7 +26,7 @@ public class CatifyGUI {
     
     GamePanel gameP = new GamePanel(cardHolder, catify);
     SettingPanel settingP = new SettingPanel(cardHolder, catify, gameP);
-    ResultPanel resultP = new ResultPanel(cardHolder, catify);
+    ResultPanel resultP = new ResultPanel(cardHolder, catify, gameP);
     HelpPanel helpP = new HelpPanel(cardHolder);
     
     cardHolder.add(mainP, "Main Panel");

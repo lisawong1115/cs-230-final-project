@@ -20,10 +20,12 @@ public class ResultPanel extends JPanel {
   private JButton quit;
   private JPanel parent;
   private CatifyGame catify;
+  private GamePanel gp;
     
-    public ResultPanel (JPanel parent, CatifyGame game) {
+    public ResultPanel (JPanel parent, CatifyGame game, GamePanel gp) {
     this.catify = game;
     this.parent = parent;
+    this.gp = gp;
     
     l1 = new JLabel("Congratulations!");
     l2 = new JLabel("You found all pairs!");
@@ -54,8 +56,8 @@ public class ResultPanel extends JPanel {
     JPanel result = new JPanel();
     
     restart = new JButton("Restart");
-    restart.addActionListener(new Switcher("Game Panel", this.parent));
     restart.addActionListener(new ButtonListener());
+    restart.addActionListener(new Switcher("Game Panel", this.parent));
     home = new JButton("Home");
     home.addActionListener(new Switcher("Main Panel", this.parent));
     home.addActionListener(new ButtonListener());
@@ -91,6 +93,7 @@ public class ResultPanel extends JPanel {
       }
       if (e.getSource() == restart) {
         catify.setGame(catify.getNumPics());
+        gp.setBoard(catify.getNumPics());
         System.out.println("Restart a new game");       
       }
       

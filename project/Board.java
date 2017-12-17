@@ -10,15 +10,17 @@ public class Board{
   public Board(int numPics){
     this.size=(int)Math.sqrt(numPics*2); 
     gameBoard=new Picture[size][size];
-    ArrayList<Integer> whichPicList = UniqueRandom(32);
-    ArrayList<Integer> positionList = UniqueRandom(numPics*2);
+    ArrayList<Integer> whichPicList = uniqueRandom(32);
+    System.out.println(whichPicList);
+    ArrayList<Integer> positionList = uniqueRandom(numPics*2);
+    System.out.println(positionList);
     //ArrayList<int[]> tupleList = UniqueRandomPos();
     //for loop 
     for(int i=0; i<numPics; i++){
-      int picID = whichPicList.get(i).intValue();
+      int picID = whichPicList.get(i).intValue() + 1;
       Picture pic= pictureSource.getPic(picID);
-      int firstPos = positionList.get(2*i) - 1;
-      int secondPos = positionList.get(2*i+1) - 1;
+      int firstPos = positionList.get(2*i);
+      int secondPos = positionList.get(2*i+1);
       
       int x1,y1,x2,y2;
       x1 = firstPos/size;
@@ -35,9 +37,10 @@ public class Board{
     }
   }
   
-  private ArrayList<Integer> UniqueRandom(int numPics) {
+  private ArrayList<Integer> uniqueRandom(int numPics) {
     ArrayList<Integer> list = new ArrayList<Integer>();
-    for (int i=1; i<=numPics; i++) {
+    for (int i=0; i<numPics; i++) {
+    //for (int i=1; i<=numPics; i++) {
       list.add(new Integer(i));
     }
     Collections.shuffle(list);

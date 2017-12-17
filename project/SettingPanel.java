@@ -16,7 +16,7 @@ public class SettingPanel extends JPanel {
   private JLabel info;
   private JPanel parent;
   private JPanel gridPanel;
-  private CatifyGame game; 
+  private CatifyGame catify; 
   private GamePanel gp;
   
   public SettingPanel(JPanel parent, CatifyGame game, GamePanel gp){
@@ -24,7 +24,7 @@ public class SettingPanel extends JPanel {
     gridPanel = this.gp.getGridPanel();
     this.parent = parent;
     
-    this.game = game;     
+    this.catify = game;     
     
     GridBagLayout gridbag = new GridBagLayout();
     this.setLayout(gridbag);
@@ -100,19 +100,22 @@ public class SettingPanel extends JPanel {
     public void actionPerformed (ActionEvent event) {
       
       if (event.getSource() == easyButton){
-        game.setGame(8);
+        catify.setGame(8);
         gp.setBoard(8);
         System.out.println("Starting the game with 8 pairs");
+        System.out.println(catify.getBoard());
       }
       if (event.getSource() == mediumButton){
-        game.setGame(18);
+        catify.setGame(18);
         gp.setBoard(18);
         System.out.println("Starting the game with 18 pairs");
+        System.out.println(catify.getBoard());
       }
       if (event.getSource() == hardButton){
-        game.setGame(32);
+        catify.setGame(32);
         gp.setBoard(32);
         System.out.println("Starting the game with 32 pairs");
+        System.out.println(catify.getBoard());
       }
     }
     
