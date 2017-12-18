@@ -3,7 +3,7 @@
  * Back-end version of Catify game can be played in this class
  * Bugs in the GUI version have been fixed in this version 
  * 
- * @author Tina Zhang (MAIN AUTHOR) (yzhang16) , Huihan Li (MAIN AUTHOR) (hli3)
+ * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (yzhang16) 
  * @since 12/17/2017
  * 
  */
@@ -228,24 +228,10 @@ public class CatifyGame{
   
   //main method to play the game 
   public static void main(String args[]){
-    CatifyGame test= new CatifyGame();
-    test.setGame(18); 
-    System.out.println("Created a medium game of 18 pictures");
-    System.out.println("The correct positions of the game is printed in the following game board");
-    System.out.println(test.printBoard()); 
-    System.out.println("Your progress right now is printed below (0: not found)");
-    System.out.println(test);
-    System.out.println("get number of pictures (18): "+test.getNumPics());
-    test.takeOneClick(0,0);
-    test.takeOneClick(2,3);
-    System.out.println("Clicked on picture " + test.getBoard().getElement(0,0).getID());
-    System.out.println("Clicked on picture " + test.getBoard().getElement(2,3).getID());
-    System.out.println("Are the two pictures the same? " + test.findOnePair());
-    System.out.println("You made " + test.getAttempts() + " attempts");
-    System.out.println("You found "+ test.getPairsFound() +" paris");
-    test.clearChoices();
-    System.out.println(" Clearchoices. click now is  (0)" + test.getClick());
-    System.out.println("Is the game over (False) "+test.isFinish());
+    CatifyGame testGame= new CatifyGame();
+    testGame.play(8);
+    
+    
   }
   
 }

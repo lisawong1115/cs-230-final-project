@@ -4,7 +4,7 @@
  * <p>
  * Allows user to choose from three levels of difficulty of the game by clicking on three different buttons.
  * 
- * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+ * @author Lisa Huang (rhuang2), Huihan Li (MAIN AUTHOR) (hli3) and Tina Zhang (yzhang16)
  * @since 12-08-2017
  */
 

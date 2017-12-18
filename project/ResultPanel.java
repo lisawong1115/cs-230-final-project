@@ -5,7 +5,7 @@
  * Displays information that congratulates the user on winning the game, and provides the user with options to play 
  * again, to return to the home screen and to quit the game.
  * 
- * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+ * @author Lisa Huang (MAIN AUTHOR) (rhuang2), Huihan Li (MAIN AUTHOR) (hli3) and Tina Zhang (yzhang16)
  * @since 12-08-2017
  */
 

@@ -1,0 +1,36 @@
+Welcome to DrJava.  Working directory is /Users/air/Desktop/Fall 2017/CS 230/FinalProject/cs-230-final-project/project
+> run ImageCollection
+Printing out the hashtable in the format of *Picture ID: URL*
+1:../cat_pics/pic1.jpg
+2:../cat_pics/pic2.jpg
+3:../cat_pics/pic3.jpg
+4:../cat_pics/pic4.jpg
+5:../cat_pics/pic5.jpg
+6:../cat_pics/pic6.jpg
+7:../cat_pics/pic7.jpg
+8:../cat_pics/pic8.jpg
+9:../cat_pics/pic9.jpg
+10:../cat_pics/pic10.jpg
+11:../cat_pics/pic11.jpg
+12:../cat_pics/pic12.jpg
+13:../cat_pics/pic13.jpg
+14:../cat_pics/pic14.jpg
+15:../cat_pics/pic15.jpg
+16:../cat_pics/pic16.jpg
+17:../cat_pics/pic17.jpg
+18:../cat_pics/pic18.jpg
+19:../cat_pics/pic19.jpg
+20:../cat_pics/pic20.jpg
+21:../cat_pics/pic21.jpg
+22:../cat_pics/pic22.jpg
+23:../cat_pics/pic23.jpg
+24:../cat_pics/pic24.jpg
+25:../cat_pics/pic25.jpg
+26:../cat_pics/pic26.jpg
+27:../cat_pics/pic27.jpg
+28:../cat_pics/pic28.jpg
+29:../cat_pics/pic29.jpg
+30:../cat_pics/pic30.jpg
+31:../cat_pics/pic31.jpg
+32:../cat_pics/pic32.jpg
+> 

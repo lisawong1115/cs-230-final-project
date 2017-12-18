@@ -1,5 +1,9 @@
 /** 
- * ResutltPanel.java
+ * <h1>ResutltPanel.java</h1>
+ * 
+ * <p>
+ * Displays information that congratulates the user on winning the game, and provides the user with options to play 
+ * again, to return to the home screen and to quit the game.
  * 
  * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
  * @since 12-08-2017
@@ -21,15 +25,21 @@ public class ResultPanel extends JPanel {
   private JPanel parent;
   private CatifyGame catify;
   private GamePanel gp;
-    
-    public ResultPanel (JPanel parent, CatifyGame game, GamePanel gp) {
+  
+  /** 
+   * Constructor
+   * Needs these parameter to establish connections between the ResultPanel and other panels
+   * @param parent the parent panel (cardHolder/container) of this panel
+   * @param game the CatifyGame instance
+   * @param gp the Game Panel in the GUI
+   */
+  public ResultPanel (JPanel parent, CatifyGame game, GamePanel gp) {
     this.catify = game;
     this.parent = parent;
     this.gp = gp;
     
     l1 = new JLabel("Congratulations!");
     l2 = new JLabel("You found all pairs!");
-    
     
     l1.setAlignmentX(Component.CENTER_ALIGNMENT);
     l1.setFont(new Font("Chalkduster", Font.PLAIN, 60));
@@ -43,6 +53,7 @@ public class ResultPanel extends JPanel {
     
     this.add(Box.createVerticalStrut(150));
     
+    // a JPanel that contains merely buttons
     JPanel buttonsPanel = ButtonsPanel();
     
     this.add(buttonsPanel);
@@ -52,15 +63,22 @@ public class ResultPanel extends JPanel {
     
   }
   
-  public JPanel ButtonsPanel () {
+  /**
+   * Creates a JPanel with three buttons
+   * @return the created JPanel with three buttons
+   */
+  private JPanel ButtonsPanel () {
     JPanel result = new JPanel();
     
     restart = new JButton("Restart");
+    // the restart and home buttons need two listeners, respectively, to not only restart the game but also switch 
+    // to a different panel outside of this panel
     restart.addActionListener(new ButtonListener());
     restart.addActionListener(new Switcher("Game Panel", this.parent));
     home = new JButton("Home");
     home.addActionListener(new Switcher("Main Panel", this.parent));
     home.addActionListener(new ButtonListener());
+    // the quit button only needs one ButtonListener because it only performs one action - quit
     quit = new JButton("Quit");
     quit.addActionListener(new ButtonListener());
     
@@ -84,15 +102,24 @@ public class ResultPanel extends JPanel {
     return result;
   }
   
+  /**
+   * A private ButtonListener class used as ActionListeners for the buttons in this class.
+   */
   private class ButtonListener implements ActionListener {
     
+    /**
+     * Invoked when an action occurs.
+     * @param e The action event that occurs
+     */
     public void actionPerformed (ActionEvent e) {
       if (e.getSource() == quit) {
         System.out.println("Goodbye!");
         System.exit(0);
       }
       if (e.getSource() == restart) {
+        // restarts the game in the back end
         catify.setGame(catify.getNumPics());
+        // restarts the game in the front end (the Game Panel)
         gp.setBoard(catify.getNumPics());
         System.out.println("Restart a new game");       
       }
@@ -100,10 +127,6 @@ public class ResultPanel extends JPanel {
       if (e.getSource() == home) {
         System.out.println("Going back to main panel");
       }
-      
-      
     }
-    
-    
   }
 }

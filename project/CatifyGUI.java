@@ -4,7 +4,7 @@
 * A GUI that allows one player to play the Catify Game at three different level, with instruction provided.<br>
 * Connects with the backend program CatifyGame.java and provides pleasant game playing experience.
 * 
-* @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+* @author Lisa Huang (MAIN AUTHOR) (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
 * @since 12-08-2017
 */
 import javax.swing.*;

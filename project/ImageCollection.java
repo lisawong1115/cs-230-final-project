@@ -2,7 +2,7 @@
  * ImageCollection.java
  * Create a hashtable for all the images 
  * 
- * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (yzhang16) 
+ * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (MAIN AUTHOR) (yzhang16) 
  * @since 12/17/2017
  * 
  */

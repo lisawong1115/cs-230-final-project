@@ -2,7 +2,7 @@
  * Board.java
  * Represents a board object that creates a board for the game 
  * 
- * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (yzhang16) 
+ * @author Huihan Li(hli3), Lisa Huang(rhuang2), Tina Zhang (MAIN AUTHOR) (yzhang16) 
  * @since 12/17/2017
  * 
  */

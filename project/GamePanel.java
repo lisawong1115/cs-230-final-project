@@ -2,7 +2,7 @@
  * GamePanel.java
  * The JPanel where the catify game takes place
  * BUG REPORT: If a button whose picture is revealed is clicked on again, the program will find a wrong pair.<br>
- * This bug only exists when playing the game with GUI. Only playing on backend is fine.
+ * This bug only exists when playing the game with GUI. Only playing on backend is fine. (Details see line 273)
  * 
  * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
  * @since 12-08-2017
@@ -269,6 +269,14 @@ public class GamePanel extends JPanel {
               grids[i][j].flip(2);
               System.out.println("Clicked on Button (" + i + "," + j + ")");
               
+              /**
+               * THE FOLLOWING LINES INVOLVE A BUG
+               * If the user click on an unrevealed picture as well as a revealed picture (which is really abnormal 
+               * as nobody would pair a new picture up with a revealed picture), 
+               * only the click on the unrevealed picture will be added to the LinkedList<LinkedList<Integer>> clicks 
+               * because we actually click on the “picture” rather than the “button” of the revealed picture. 
+               * Therefore, since only one click is tracked, the program will prompt the user to make a second click.
+               */
               // Store the ID of the Picture of the clicked Button
               LinkedList<Integer> oneClick = new LinkedList<Integer>();
               oneClick.add(new Integer(i));

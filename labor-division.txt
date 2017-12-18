@@ -1,0 +1,24 @@
+Labor Report
+
+Lisa Huang:
+1. Worked mainly on writing GUIs and connections between the frontend and the backend;
+2. Wrote CatifyGUI, GamePanel, HelpPanel, MainPanel, ResultPanel and Switcher;
+3. Applied CardLayout to a container JPanel that contains all the panels in the GUI 
+   and enabled users to switch between different panels in the GUI by clicking on buttons 
+   (had to use JTabbedPane before);
+4. Created timers for different actions in GamePanel that allow time gaps between certain actions;
+   Debugged and tested on GUIs.
+
+Huihan Li:
+1. Worked mainly on writing the backend and helped out with GUIs;
+2. Wrote SettingPanel, GamePanel, CatifyGame, ResultPanel;
+3. Applied JLayeredPane to each grid within the gridPanel to enable hiding and showing images on the game board;
+4. Wrote play() method in CatifyGame to facilitate playing on the backend;
+
+Tina Zhang:
+1. Main role in backend and supported GUIs. 
+2. Wrote Picture, ImageCollection, Board, CatifyGame, SettingPanel 
+3. Applied algorithm to randomly generate unrepeated number to create the board 
+4. Fixed the two known bugs in backend  
+5. Debugged and tested on backend codes 
+

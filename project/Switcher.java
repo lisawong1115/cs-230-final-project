@@ -5,7 +5,7 @@
  * An ActionListener that switch between panels in the parent panel (the cardHolder) with a CardLayout when an event
  * is invoked.
  * 
- * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+ * @author Lisa Huang (MAIN AUTHOR) (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
  * @since 12-16-2017
  */
 

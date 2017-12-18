@@ -5,7 +5,7 @@
  * The Home Screen for the game, contains the name of a game, a very cute picture, and three buttons: New Game, ? Help, 
  * and Quit.
  * 
- * @author Lisa Huang (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
+ * @author Lisa Huang (MAIN AUTHOR) (rhuang2), Huihan Li (hli3) and Tina Zhang (yzhang16)
  * @since 12-08-2017
  */
 

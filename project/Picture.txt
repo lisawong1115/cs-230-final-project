@@ -1,0 +1,5 @@
+Welcome to DrJava.  Working directory is /Users/air/Desktop/Fall 2017/CS 230/FinalProject/cs-230-final-project/project
+> run Picture
+Pic N0.3's ID is 3
+Pic N0.3's URL is ../cat_pics/pic3.jpg
+> 

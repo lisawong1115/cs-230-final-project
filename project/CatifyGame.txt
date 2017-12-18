@@ -1,0 +1,29 @@
+Welcome to DrJava.  Working directory is /Users/air/Desktop/Fall 2017/CS 230/FinalProject/cs-230-final-project/project
+> run CatifyGame
+Created a medium game of 18 pictures
+The correct positions of the game is printed in the following game board
+20  29  19  24  18  9  
+22  20  18  29  26  5  
+28  16  6  1  13  5  
+16  26  25  9  22  28  
+21  27  6  7  13  21  
+7  25  19  1  27  24  
+
+Your progress right now is printed below (0: not found)
+Pictures found in positions:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+get number of pictures (18): 18
+Clicked on picture 20
+Clicked on picture 1
+Are the two pictures the same? false
+You made 1 attempts
+You found 0 paris
+ Clearchoices. click now is  (0)0
+Is the game over (False) false
+> 

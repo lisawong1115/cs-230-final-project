@@ -2,7 +2,7 @@
  * Picture.java
  * Represents a picture object that contains a picture ID and a picture URL 
  * 
- * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (yzhang16) 
+ * @author Huihan Li(hli3),Lisa Huang(rhuang2), Tina Zhang (MAIN AUTHOR) (yzhang16) 
  * @since 12/17/2017
  * 
  */
