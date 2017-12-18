@@ -1,0 +1,232 @@
+Welcome to DrJava.  Working directory is C:\Users\yzhan\Desktop\cs-230-final-project-master\cs-230-final-project-master\project
+> run CatifyGameDriver
+25  7  25  8  
+19  24  26  26  
+11  16  24  16  
+8  11  7  19  
+
+Type x for the first picture: 
+ [DrJava Input Box] 0
+Type y for the first picture: 
+ [DrJava Input Box] 0
+
+//Testing for potential bug1: click on the same picture 
+//Result as expected: the game continue asks for user input until valid input 
+Type x for the second picture: 
+ [DrJava Input Box] 0
+Type y for the second picture: 
+ [DrJava Input Box] 0
+
+//valid input 
+Type x for the second picture: 
+ [DrJava Input Box] 0
+Type y for the second picture: 
+ [DrJava Input Box] 2
+Picture1 and Picture2 are same? true
+You took 1 attempts.
+You found 1 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 0 25 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+//Testing for potential bug2: click on a picture already existed 
+//Result as expected: the game continue asks for user input until valid input 
+Type x for the first picture: 
+ [DrJava Input Box] 0
+Type y for the first picture: 
+ [DrJava Input Box] 2
+
+//valid inputs 
+Type x for the first picture: 
+ [DrJava Input Box] 2
+Type y for the first picture: 
+ [DrJava Input Box] 0
+Type x for the second picture: 
+ [DrJava Input Box] 3
+Type y for the second picture: 
+ [DrJava Input Box] 2
+Picture1 and Picture2 are same? false
+You took 2 attempts.
+You found 1 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 0 25 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+//input picture 19 and picture 11 are not the same 
+Type x for the first picture: 
+ [DrJava Input Box] 1
+Type y for the first picture: 
+ [DrJava Input Box] 0
+Type x for the second picture: 
+ [DrJava Input Box] 3
+Type y for the second picture: 
+ [DrJava Input Box] 2
+Picture1 and Picture2 are same? false
+You took 3 attempts.
+You found 1 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 0 25 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Type x for the first picture: 
+ [DrJava Input Box] 0
+Type y for the first picture: 
+ [DrJava Input Box] 1
+Type x for the second picture: 
+ [DrJava Input Box] 3
+Type y for the second picture: 
+ [DrJava Input Box] 2
+Picture1 and Picture2 are same? true
+You took 4 attempts.
+You found 2 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 0 
+0 0 0 0 
+0 0 0 0 
+0 0 7 0 
+
+Type x for the first picture: 
+ [DrJava Input Box] 0
+Type y for the first picture: 
+ [DrJava Input Box] 3
+
+//Testing for array out of bound 
+//Result as expected: the game continue asks for user input until valid input 
+Type x for the second picture: 
+ [DrJava Input Box] 4
+Type y for the second picture: 
+ [DrJava Input Box] 5
+
+//valid inputs 
+Type x for the second picture: 
+ [DrJava Input Box] 0
+Type y for the second picture: 
+ [DrJava Input Box] 3
+Type x for the second picture: 
+ [DrJava Input Box] 3
+Type y for the second picture: 
+ [DrJava Input Box] 0
+Picture1 and Picture2 are same? true
+You took 5 attempts.
+You found 3 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+0 0 0 0 
+0 0 0 0 
+8 0 7 0 
+
+Type x for the first picture: 
+ [DrJava Input Box]
+Type y for the first picture: 
+ [DrJava Input Box]
+Type x for the second picture: 
+ [DrJava Input Box]
+Type y for the second picture: 
+ [DrJava Input Box]
+Picture1 and Picture2 are same? true
+You took 6 attempts.
+You found 4 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+19 0 0 0 
+0 0 0 0 
+8 0 7 19 
+
+Type x for the first picture: 
+ [DrJava Input Box] 1
+Type y for the first picture: 
+ [DrJava Input Box] 0
+Type x for the second picture: 
+ [DrJava Input Box] 3
+Type y for the second picture: 
+ [DrJava Input Box] 3
+Picture1 and Picture2 are same? true
+You took 7 attempts.
+You found 5 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+19 24 0 0 
+0 0 24 0 
+8 0 7 19 
+
+Type x for the first picture: 
+ [DrJava Input Box] 1
+Type y for the first picture: 
+ [DrJava Input Box] 1
+Type x for the second picture: 
+ [DrJava Input Box] 2 
+Type y for the second picture: 
+ [DrJava Input Box] 2
+Picture1 and Picture2 are same? true
+You took 8 attempts.
+You found 6 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+19 24 26 26 
+0 0 24 0 
+8 0 7 19 
+
+Type x for the first picture: 
+ [DrJava Input Box] 1
+Type y for the first picture: 
+ [DrJava Input Box] 2
+Type x for the second picture: 
+ [DrJava Input Box] 1 
+Type y for the second picture: 
+ [DrJava Input Box] 3
+Picture1 and Picture2 are same? true
+You took 9 attempts.
+You found 7 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+19 24 26 26 
+11 0 24 0 
+8 11 7 19 
+
+Type x for the first picture: 
+ [DrJava Input Box] 2
+Type y for the first picture: 
+ [DrJava Input Box] 1
+Type x for the second picture: 
+ [DrJava Input Box] 2
+Type y for the second picture: 
+ [DrJava Input Box] 3
+Picture1 and Picture2 are same? true
+You took 10 attempts.
+You found 8 pairs.
+
+Board right now: 
+Pictures found in positions:
+25 7 25 8 
+19 24 26 26 
+11 16 24 16 
+8 11 7 19 
+
+Congratulations! You found all pairs!
+You took 10 attempts.
+You found 8 pairs.
+> 

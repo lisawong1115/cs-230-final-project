@@ -292,8 +292,6 @@ public class GamePanel extends JPanel {
         
         // check if the user found one pair if they made two clickes
         if (catify.getClick() == 2){
-          //increment attempts
-          attempt.setText("Attempts made: " + catify.getAttempts());
           
           boolean foundOnePair = catify.findOnePair();
           if (foundOnePair)
@@ -314,6 +312,8 @@ public class GamePanel extends JPanel {
           // prepare for a new round
           clicks.clear();
           catify.clearChoices();
+          //increment attempts
+          attempt.setText("Attempts made: " + catify.getAttempts());
         }
         
         // wait for 1.5 seconds and turn to the ResultPanel if the game is finished

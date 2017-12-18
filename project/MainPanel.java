@@ -35,7 +35,7 @@ public class MainPanel extends JPanel {
     myParent = parent;
     
     l1 = new JLabel ("Catify ");
-    l2 = new JLabel ("The next killer app designed by LHT INC.");
+    l2 = new JLabel ("The next killer app designed by Lisa Huang, Huihan Li and Tina Zhang");
     img = new JLabel (new ImageIcon("../cat_pics/pic3.jpg"));
     
     
@@ -46,6 +46,7 @@ public class MainPanel extends JPanel {
     this.add(Box.createVerticalStrut(20));
     
     l2.setAlignmentX(Component.CENTER_ALIGNMENT);
+    l2.setFont(new Font("Arial", Font.PLAIN, 18));
     this.add(l2);
     
     this.add(Box.createVerticalStrut(20));
@@ -60,6 +61,7 @@ public class MainPanel extends JPanel {
     this.add(buttonsPanel);
     
     this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+    this.setBorder(BorderFactory.createEmptyBorder(20,50,20,50));
   }
   
   /**
